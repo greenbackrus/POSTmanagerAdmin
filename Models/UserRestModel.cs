@@ -1,4 +1,4 @@
-﻿namespace POSTmanager.Models
+﻿namespace POSTmanagerAdmin.Models
 {
     internal class UserRest
     {

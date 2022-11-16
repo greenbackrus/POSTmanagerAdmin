@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace POSTmanager.Models
+namespace POSTmanagerAdmin.Models
 {
     internal class Rest
     {

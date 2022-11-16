@@ -1,7 +1,7 @@
-﻿namespace POSTmanager
+﻿namespace POSTmanagerAdmin
 {
     using Microsoft.EntityFrameworkCore;
-    using POSTmanager.Models;
+    using POSTmanagerAdmin.Models;
 
     internal class PmDbContext : DbContext
     {

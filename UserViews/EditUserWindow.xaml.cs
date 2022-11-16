@@ -1,5 +1,4 @@
-﻿using POSTmanagerAdmin.RestViews;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace POSTmanagerAdmin
+namespace POSTmanagerAdmin.RestViews
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для EditUser.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class EditUser : Window
     {
-        public MainWindow()
+        public EditUser()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            CreateRestWindow window = new CreateRestWindow();
-            window.Show();
         }
     }
 }
